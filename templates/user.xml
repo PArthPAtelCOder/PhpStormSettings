@@ -1,0 +1,12 @@
+<templateSet group="user">
+  <template name="alert-success" value="?&gt;&#10;&#10;                    &lt;div class=&quot;alert alert-success alert-dismissible&quot; role=&quot;alert&quot;&gt;&#10;                        &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-label=&quot;Close&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;/button&gt;&#10;                        &lt;strong&gt;$msg$&lt;/strong&gt;&#10;                    &lt;/div&gt;&#10;&#10;                    &lt;?php" description="dismisable success alert" toReformat="true" toShortenFQNames="true">
+    <variable name="msg" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="alert-danger-php" value="?&gt;&#10;&#10;                    &lt;div class=&quot;alert alert-danger alert-dismissible&quot; role=&quot;alert&quot;&gt;&#10;                        &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-label=&quot;Close&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;/button&gt;&#10;                        &lt;strong&gt;$msg$&lt;/strong&gt;&#10;                    &lt;/div&gt;&#10;&#10;                    &lt;?php" description="dismisable danger alert" toReformat="false" toShortenFQNames="true">
+    <variable name="msg" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+</templateSet>
