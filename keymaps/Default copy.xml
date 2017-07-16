@@ -1,0 +1,15 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="CloseAllEditors">
+    <mouse-shortcut keystroke="shift control button142" />
+  </action>
+  <action id="CloseAllEditorsButActive">
+    <mouse-shortcut keystroke="alt button142" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <mouse-shortcut keystroke="control button142" />
+  </action>
+  <action id="ReopenClosedTab">
+    <mouse-shortcut keystroke="control button143" />
+  </action>
+</keymap>
