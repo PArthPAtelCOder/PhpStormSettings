@@ -12,4 +12,10 @@
   <action id="ReopenClosedTab">
     <mouse-shortcut keystroke="control button143" />
   </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="ToggleDistractionFreeMode">
+    <mouse-shortcut keystroke="control button3" />
+  </action>
 </keymap>
