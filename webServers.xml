@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="d8924ec9-aeb2-4f97-9ea6-40af713c4c49" name="shutterbug_official" url="http://files.000webhost.com">
+        <fileTransfer host="files.000webhost.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
       <webServer id="6d3f78de-a458-4a16-8ffb-9c0f154c44a7" name="shutterbug_eco" url="http://ftp.stackcp.com">
         <fileTransfer host="ftp.stackcp.com" port="21">
           <advancedOptions>
