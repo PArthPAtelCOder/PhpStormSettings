@@ -17,6 +17,9 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="3ce2cf47-60ac-4c9e-a45a-b32c6b5c17ab" name="fb" url="http://localhost/www.fb.com/">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
